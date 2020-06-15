@@ -88,6 +88,9 @@ class Facebook extends AbstractService
     const SCOPE_FRIENDS_LOCATION              = 'friends_location';
     const SCOPE_USER_NOTES                    = 'user_notes';
     const SCOPE_FRIENDS_NOTES                 = 'friends_notes';
+    const SCOPE_GENDER                        = 'user_gender';
+    const SCOPE_AGE_RANGE                     = 'user_age_range';
+    const SCOPE_LINK                          = 'user_link';
     const SCOPE_USER_PHOTOS                   = 'user_photos';
     const SCOPE_USER_PHOTO_VIDEO_TAGS         = 'user_photo_video_tags';
     const SCOPE_FRIENDS_PHOTOS                = 'friends_photos';
@@ -130,7 +133,6 @@ class Facebook extends AbstractService
     const SCOPE_PAGES_SHOW_LIST               = 'pages_show_list';
     const SCOPE_PAGES_MANAGE_CTA              = 'pages_manage_cta';
     const SCOPE_PAGES_MANAGE_INSTANT_ARTICLES = 'pages_manage_instant_articles';
-    const SCOPE_PAGES_MESSAGING               = 'pages_messaging';
     const SCOPE_PAGES_MESSAGING_SUBSCRIPTIONS = 'pages_messaging_subscriptions';
     const SCOPE_PAGES_MESSAGING_PAYMENTS      = 'pages_messaging_payments';
     const SCOPE_PAGES_MESSAGING_PHONE_NUMBER  = 'pages_messaging_phone_number';
